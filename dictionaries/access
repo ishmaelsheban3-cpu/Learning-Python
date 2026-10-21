@@ -1,0 +1,21 @@
+# Accessing dictionaries
+#Example 1: Accessing values using keys
+my_dict = {
+    "name": "John",
+    "age": 30,
+    "city": "New York"
+}
+print(my_dict["name"])  # Output: John
+print(my_dict["age"])   # Output: 30
+print(my_dict["city"])  # Output: New York 
+
+
+# More examples of accessing values using keys
+# Example 2: Using the get() method
+print(my_dict.get("name"))  # Output: John
+print(my_dict.get("age"))   # Output: 30
+print(my_dict.get("city"))  # Output: New York
+
+# Example 3: Using the get() method with a default value
+print(my_dict.get("name", "Unknown"))  # Output: John
+print(my_dict.get("height", "Not specified"))  # Output: Not specified  
